@@ -28,15 +28,24 @@ import * as firebase from 'firebase';
 // Initialize Firebase
 // TODO: Replace with your project's customized code snippet
 
-var config = {
-    apiKey: "AIzaSyBPweAHcP4em0PYh8XWzEqjNhTk3OBNS5I",
-    authDomain: "dashboard-dev-8b843.firebaseapp.com",
-    databaseURL: "https://dashboard-dev-8b843.firebaseio.com",
-    projectId: "dashboard-dev-8b843",
-    storageBucket: "dashboard-dev-8b843.appspot.com",
-    messagingSenderId: "264557605189"
+//var config = {
+    //apiKey: "AIzaSyBPweAHcP4em0PYh8XWzEqjNhTk3OBNS5I",
+    //authDomain: "dashboard-dev-8b843.firebaseapp.com",
+    //databaseURL: "https://dashboard-dev-8b843.firebaseio.com",
+    //projectId: "dashboard-dev-8b843",
+    //storageBucket: "dashboard-dev-8b843.appspot.com",
+    //messagingSenderId: "264557605189"
+  //};
+
+firevar config = {
+    apiKey: "AIzaSyCxTo0CwXFb7uG6633tBytVTez6x_Y2xAY",
+    authDomain: "dashboard-36d08.firebaseapp.com",
+    databaseURL: "https://dashboard-36d08.firebaseio.com",
+    projectId: "dashboard-36d08",
+    storageBucket: "dashboard-36d08.appspot.com",
+    messagingSenderId: "226244089354"
   };
-firebase.initializeApp(config);
+base.initializeApp(config);
 
 
 class Full extends Component {
